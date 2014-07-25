@@ -1,0 +1,9 @@
+#playerBox {
+  width: 170px;
+  height: 130px;
+  background-color: black;
+}
+
+.hideBox {
+  display:none;
+}
