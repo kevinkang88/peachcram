@@ -11,7 +11,12 @@ var playSong = function(){
         success: function(data){
           console.log("works!");
           // here data contains hash with video IDs as values
-          // debugger;
+          var videoIdsWithNum = data;
+          var videoIds = [];
+          for(var key in videoIdsWithNum){
+            videoIds.push(videoIdsWithNum[key]);
+          }
+
         }
       })
       // swfobject.embedSWF("http://www.youtube.com/v/CE8vZEheWew?enablejsapi=1&playerapiid=ytplayer&version=3&autoplay=1",
