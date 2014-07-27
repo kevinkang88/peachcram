@@ -1,6 +1,5 @@
 var playSong = function(){
   $('#playBtn').on('click',function(){
-    // play Yiruma song!
     var params = { allowScriptAccess: "always" };
     var atts = { id: "myytplayer" };
 
@@ -51,7 +50,9 @@ function onYouTubePlayerReady(playerId) {
 };
 
 function queueNextSong(ytplayer) {
-  ytplayer.cueVideoById("oS4lYcgtT4E");
+  ytplayer.cueVideoById(videoIds.shift());
+  // ytplayer.cueVideoById("G_hHoSWAEkU");
+  initializeVideo(videoIds.shift());
   console.log("queued song")
 };
 //++++++++++++++++++++++++++++++++++++++
