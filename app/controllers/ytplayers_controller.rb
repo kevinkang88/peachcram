@@ -12,5 +12,5 @@ class YtplayersController < ApplicationController
     # require 'pry'; binding.pry
     render json: @video_ids
   end
-
 end
+
