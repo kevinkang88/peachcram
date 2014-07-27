@@ -13,5 +13,5 @@ test:
 production:
   <<: *default
   database: strava-with-friends_production
-  # username: #Set these when you deploy
-  # password:
+  username: peachcram
+  password: 123
