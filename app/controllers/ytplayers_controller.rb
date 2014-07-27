@@ -10,6 +10,7 @@ class YtplayersController < ApplicationController
       @video_ids[i] = el
     end
     # require 'pry'; binding.pry
-    return @video_ids.to_json
+    render json: @video_ids
   end
+
 end

@@ -4,13 +4,33 @@ var playSong = function(){
     var params = { allowScriptAccess: "always" };
     var atts = { id: "myytplayer" };
     if($('#cram-amt').val() == 'easy-pz'){
-      swfobject.embedSWF("http://www.youtube.com/v/CE8vZEheWew?enablejsapi=1&playerapiid=ytplayer&version=3&autoplay=1",
-                         "playerBox", "200", "300", "8", null, null, params, atts);
+      $.ajax({
+        url: "/song_maker/level_one",
+        type: "GET",
+        dataType: "json",
+        success: function(data){
+          console.log("works!");
+        }
+      })
+      // swfobject.embedSWF("http://www.youtube.com/v/CE8vZEheWew?enablejsapi=1&playerapiid=ytplayer&version=3&autoplay=1",
+      //                    "playerBox", "200", "300", "8", null, null, params, atts);
     }
   })
 };
+//
 
 
+
+
+
+
+
+
+
+
+
+
+//
 var setUpSlider = function(){
   var levels = ["easy-pz","moderate","must-cram!","so-stressed!"];
   $("#slider").slider({
