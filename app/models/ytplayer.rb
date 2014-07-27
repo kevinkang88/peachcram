@@ -4,7 +4,7 @@ class Ytplayer < ActiveRecord::Base
   base_uri 'http://gdata.youtube.com'
 
   def initialize()
-    @options = { query: {api_key: "AIzaSyCgGbkzkqoXcZZMt3P1fvCjQTJFG8kJcXk"} }
+    @options = { query: {api_key: ENV["SECRET_KEY"]} }
   end
 
   def get
