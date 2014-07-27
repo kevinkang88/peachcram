@@ -7,8 +7,8 @@ class Ytplayer < ActiveRecord::Base
     @options = { query: {api_key: ENV["SECRET_KEY"]} }
   end
 
-  def get
-    self.class.get("http://gdata.youtube.com/feeds/api/videos?alt=json&max-results=10&v=2&key=AIzaSyCgGbkzkqoXcZZMt3P1fvCjQTJFG8kJcXk&q=korean%20drama%20instrumental%20ost&safeSearch=none&time=all_time&uploader=partner")
+  def get_level_one
+    self.class.get("http://gdata.youtube.com/feeds/api/videos?alt=json&max-results=10&v=2&key=AIzaSyCgGbkzkqoXcZZMt3P1fvCjQTJFG8kJcXk&q=calm%20study%20music%20ost&safeSearch=none&time=all_time&uploader=partner")
   end
 
 end

@@ -12,19 +12,20 @@ var playSong = function(){
           console.log("works!");
           var videoIdsWithNum = data;
           videoIds = [];
+          // below code extracts video ids and puts them inside video Ids array
           for(var key in videoIdsWithNum){
             videoIds.push(videoIdsWithNum[key]);
           }
           initializeVideo(videoIds.shift());
-
-
-
-
         }
       })
     }
   })
 };
+
+
+
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -38,7 +39,7 @@ function initializeVideo(videoID) {
 function ytplayerOnStateChange(state) {
   console.log(state);
   if (state === 0) {
-    alert("state is 0");
+    // alert("state is 0");
     queueNextSong(ytplayer);
     ytplayer.playVideo();
   }
@@ -51,47 +52,10 @@ function onYouTubePlayerReady(playerId) {
 
 function queueNextSong(ytplayer) {
   ytplayer.cueVideoById(videoIds.shift());
-  // ytplayer.cueVideoById("G_hHoSWAEkU");
   initializeVideo(videoIds.shift());
   console.log("queued song")
 };
 //++++++++++++++++++++++++++++++++++++++
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++
 var setUpSlider = function(){
