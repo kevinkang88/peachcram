@@ -1,8 +1,12 @@
+<p>
+  <label for="amount">Select your cram level:</label>
+  <input type="text" id="cram-amt" readonly />
+</p>
+
+<div id="slider"></div>
+
 <button id="playBtn">play</button>
 <button id="loadBtn">load</button>
 <div id="playerBox" class="hideBox">
 </div>
 
-<% @video_ids.each do |id| %>
-  <p><%= id %></p>
-<% end %>

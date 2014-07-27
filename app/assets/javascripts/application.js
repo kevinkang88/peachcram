@@ -17,6 +17,8 @@ $( document ).ready(function() {
   // this will play songs
   playSong();
   // this will load songs into playlist array
+  loadSongs();
+  setUpSlider();
 });
 
 
