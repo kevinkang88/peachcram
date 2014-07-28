@@ -4894,3 +4894,516 @@ Served asset /application.js - 304 Not Modified (7ms)
 Started GET "/song_maker/level_one" for 127.0.0.1 at 2014-07-27 16:21:02 -0700
 Processing by YtplayersController#level_one_song_maker as JSON
 Completed 200 OK in 642.4ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 16:35:36 -0700
+Processing by PagesController#main as HTML
+  Rendered pages/main.html.erb within layouts/application (0.0ms)
+Compiled pages.js  (0ms)  (pid 88640)
+Compiled application.js  (3ms)  (pid 88640)
+Completed 200 OK in 63.4ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 16:35:37 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 16:35:37 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.css?body=1" for 127.0.0.1 at 2014-07-27 16:35:37 -0700
+Served asset /ytplayers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 16:35:37 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 16:35:37 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 16:35:37 -0700
+Served asset /pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/ytplayers.js?body=1" for 127.0.0.1 at 2014-07-27 16:35:37 -0700
+Served asset /ytplayers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 16:35:37 -0700
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 16:35:41 -0700
+Processing by PagesController#main as HTML
+  Rendered pages/main.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3.8ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 16:35:41 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 16:35:41 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.css?body=1" for 127.0.0.1 at 2014-07-27 16:35:41 -0700
+Served asset /ytplayers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 16:35:41 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 16:35:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 16:35:41 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 16:35:41 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.js?body=1" for 127.0.0.1 at 2014-07-27 16:35:41 -0700
+Served asset /ytplayers.js - 304 Not Modified (0ms)
+
+
+Started GET "/song_maker/level_one" for 127.0.0.1 at 2014-07-27 16:35:47 -0700
+Processing by YtplayersController#level_one_song_maker as JSON
+Completed 500 Internal Server Error in 1893926.7ms
+
+Errno::EIO (Input/output error - <STDOUT>):
+  app/models/ytplayer.rb:11:in `get_level_one'
+  app/controllers/ytplayers_controller.rb:7:in `level_one_song_maker'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 17:07:49 -0700
+Connecting to database specified by database.yml
+Processing by PagesController#main as HTML
+  Rendered pages/main.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 47.6ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 17:07:50 -0700
+Processing by PagesController#main as HTML
+  Rendered pages/main.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3.8ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 17:07:50 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 17:07:50 -0700
+Served asset /pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ytplayers.css?body=1" for 127.0.0.1 at 2014-07-27 17:07:50 -0700
+Served asset /ytplayers.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:07:50 -0700
+Served asset /pages.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/ytplayers.js?body=1" for 127.0.0.1 at 2014-07-27 17:07:50 -0700
+Served asset /ytplayers.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 17:07:50 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 17:07:50 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:07:50 -0700
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/song_maker/level_one" for 127.0.0.1 at 2014-07-27 17:07:51 -0700
+Processing by YtplayersController#level_one_song_maker as JSON
+Completed   in 241860.8ms
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 17:12:00 -0700
+Connecting to database specified by database.yml
+Processing by PagesController#main as HTML
+  Rendered pages/main.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 44.2ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 17:12:00 -0700
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 17:12:00 -0700
+Served asset /pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/ytplayers.css?body=1" for 127.0.0.1 at 2014-07-27 17:12:00 -0700
+Served asset /ytplayers.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 17:12:00 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 17:12:01 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:12:01 -0700
+Served asset /pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/ytplayers.js?body=1" for 127.0.0.1 at 2014-07-27 17:12:01 -0700
+Served asset /ytplayers.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:12:01 -0700
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/song_maker/level_one" for 127.0.0.1 at 2014-07-27 17:12:02 -0700
+Processing by YtplayersController#level_one_song_maker as JSON
+Completed 200 OK in 1024.0ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 17:15:24 -0700
+Processing by PagesController#main as HTML
+  Rendered pages/main.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5.2ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 17:15:25 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.css?body=1" for 127.0.0.1 at 2014-07-27 17:15:25 -0700
+Served asset /ytplayers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 17:15:25 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 17:15:25 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 17:15:25 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:15:25 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.js?body=1" for 127.0.0.1 at 2014-07-27 17:15:25 -0700
+Served asset /ytplayers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:15:25 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/song_maker/level_one" for 127.0.0.1 at 2014-07-27 17:15:28 -0700
+Processing by YtplayersController#level_one_song_maker as JSON
+Completed 500 Internal Server Error in 206.0ms
+
+JSON::ParserError (757: unexpected token at '<HTML>
+<HEAD>
+<TITLE>Invalid developer key</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid developer key</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+'):
+  app/controllers/ytplayers_controller.rb:7:in `level_one_song_maker'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 17:16:03 -0700
+Processing by PagesController#main as HTML
+  Rendered pages/main.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5.4ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 17:16:03 -0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 17:16:03 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.css?body=1" for 127.0.0.1 at 2014-07-27 17:16:03 -0700
+Served asset /ytplayers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:03 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:03 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:03 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:03 -0700
+Served asset /ytplayers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:03 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:06 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:06 -0700
+Served asset /ytplayers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:06 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/song_maker/level_one" for 127.0.0.1 at 2014-07-27 17:16:07 -0700
+Processing by YtplayersController#level_one_song_maker as JSON
+Completed 500 Internal Server Error in 96.6ms
+
+JSON::ParserError (757: unexpected token at '<HTML>
+<HEAD>
+<TITLE>Invalid developer key</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid developer key</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+'):
+  app/controllers/ytplayers_controller.rb:7:in `level_one_song_maker'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/song_maker/level_one" for 127.0.0.1 at 2014-07-27 17:16:12 -0700
+Processing by YtplayersController#level_one_song_maker as JSON
+Completed 500 Internal Server Error in 82.8ms
+
+JSON::ParserError (757: unexpected token at '<HTML>
+<HEAD>
+<TITLE>Invalid developer key</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Invalid developer key</H1>
+<H2>Error 403</H2>
+</BODY>
+</HTML>
+'):
+  app/controllers/ytplayers_controller.rb:7:in `level_one_song_maker'
+
+
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/apprentice/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.18/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 17:16:28 -0700
+Processing by PagesController#main as HTML
+  Rendered pages/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7.5ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 17:16:28 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 17:16:28 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.css?body=1" for 127.0.0.1 at 2014-07-27 17:16:28 -0700
+Served asset /ytplayers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:28 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:28 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:28 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:28 -0700
+Served asset /ytplayers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:16:28 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/song_maker/level_one" for 127.0.0.1 at 2014-07-27 17:16:29 -0700
+Processing by YtplayersController#level_one_song_maker as JSON
+Completed 200 OK in 725.3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 17:17:14 -0700
+Processing by PagesController#main as HTML
+  Rendered pages/main.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5.0ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 17:17:14 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 17:17:14 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.css?body=1" for 127.0.0.1 at 2014-07-27 17:17:14 -0700
+Served asset /ytplayers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 17:17:14 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 17:17:14 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.js?body=1" for 127.0.0.1 at 2014-07-27 17:17:14 -0700
+Served asset /ytplayers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:17:14 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:17:14 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:17:14 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/song_maker/level_one" for 127.0.0.1 at 2014-07-27 17:17:16 -0700
+Processing by YtplayersController#level_one_song_maker as JSON
+Completed 200 OK in 345.3ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 17:17:51 -0700
+Processing by PagesController#main as HTML
+  Rendered pages/main.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4.4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 17:17:51 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 17:17:51 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 17:17:51 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.css?body=1" for 127.0.0.1 at 2014-07-27 17:17:51 -0700
+Served asset /ytplayers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 17:17:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:17:51 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.js?body=1" for 127.0.0.1 at 2014-07-27 17:17:51 -0700
+Served asset /ytplayers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:17:51 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/song_maker/level_one" for 127.0.0.1 at 2014-07-27 17:17:53 -0700
+Processing by YtplayersController#level_one_song_maker as JSON
+Completed 200 OK in 784.8ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-27 17:18:42 -0700
+Processing by PagesController#main as HTML
+  Rendered pages/main.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 5.1ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-27 17:18:42 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.css?body=1" for 127.0.0.1 at 2014-07-27 17:18:42 -0700
+Served asset /ytplayers.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-27 17:18:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2014-07-27 17:18:42 -0700
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-27 17:18:42 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2014-07-27 17:18:42 -0700
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ytplayers.js?body=1" for 127.0.0.1 at 2014-07-27 17:18:42 -0700
+Served asset /ytplayers.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-27 17:18:42 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/song_maker/level_one" for 127.0.0.1 at 2014-07-27 17:18:45 -0700
+Processing by YtplayersController#level_one_song_maker as JSON
+Completed 200 OK in 1149.7ms (Views: 0.3ms | ActiveRecord: 0.0ms)

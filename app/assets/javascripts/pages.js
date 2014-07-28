@@ -9,7 +9,7 @@ var playSong = function(){
         type: "GET",
         dataType: "json",
         success: function(data){
-          console.log("works!");
+          console.log("rails end point hit from js for level one songs succesful!");
           var videoIdsWithNum = data;
           videoIds = [];
           // below code extracts video ids and puts them inside video Ids array
