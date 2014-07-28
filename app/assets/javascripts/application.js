@@ -13,6 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require underscore
+
 $( document ).ready(function() {
   // this will play songs
   playSong();
