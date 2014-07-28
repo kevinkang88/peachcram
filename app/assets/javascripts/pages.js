@@ -1,5 +1,3 @@
-
-//++++++++++++++++++++++++++++++++++++++++++++++++++++
 var setUpSlider = function(){
   var levels = ["easy-pz","moderate","must-cram!","so-stressed!"];
   $("#slider").slider({
