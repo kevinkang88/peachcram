@@ -1,5 +1,5 @@
 var setUpSlider = function(){
-  var levels = ["easy-pz","moderate","must-cram!","so-stressed!"];
+  var levels = ["level one","level two","level three","level four"];
   $("#slider").slider({
     value:0,
     min: 0,
