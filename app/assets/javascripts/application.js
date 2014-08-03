@@ -17,6 +17,7 @@
 
 $( document ).ready(function() {
   // this will play songs
+  guide();
   setUpSlider();
   playSong();
 });
