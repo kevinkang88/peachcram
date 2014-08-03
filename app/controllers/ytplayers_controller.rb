@@ -4,7 +4,7 @@ class YtplayersController < ApplicationController
     api = Ytplayer.new
     videos = []
     @video_ids = {}
-    JSON.parse(api.get_level_one.body)["feed"]["entry"].each do |entry|
+    JSON.parse(api.get_level_four.body)["feed"]["entry"].each do |entry|
       videos << entry["content"]["src"].slice(25,11)
     end
     videos.each_with_index do |el,i|
@@ -18,7 +18,7 @@ class YtplayersController < ApplicationController
     api = Ytplayer.new
     videos = []
     @video_ids = {}
-    JSON.parse(api.get_level_two.body)["feed"]["entry"].each do |entry|
+    JSON.parse(api.get_level_three.body)["feed"]["entry"].each do |entry|
       videos << entry["content"]["src"].slice(25,11)
     end
     videos.each_with_index do |el,i|
@@ -32,7 +32,7 @@ class YtplayersController < ApplicationController
     api = Ytplayer.new
     videos = []
     @video_ids = {}
-    JSON.parse(api.get_level_three.body)["feed"]["entry"].each do |entry|
+    JSON.parse(api.get_level_two.body)["feed"]["entry"].each do |entry|
       videos << entry["content"]["src"].slice(25,11)
     end
     videos.each_with_index do |el,i|
@@ -46,7 +46,7 @@ class YtplayersController < ApplicationController
     api = Ytplayer.new
     videos = []
     @video_ids = {}
-    JSON.parse(api.get_level_four.body)["feed"]["entry"].each do |entry|
+    JSON.parse(api.get_level_one.body)["feed"]["entry"].each do |entry|
       videos << entry["content"]["src"].slice(25,11)
     end
     videos.each_with_index do |el,i|
