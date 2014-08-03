@@ -1,0 +1,17 @@
+#database.yml sample
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: strava-with-friends_development
+test:
+  <<: *default
+  database: strava-with-friends_test
+production:
+  <<: *default
+  database: strava-with-friends_production
+  # username: peachcram
+  # password: 123
