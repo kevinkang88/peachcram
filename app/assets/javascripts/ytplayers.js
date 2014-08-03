@@ -31,10 +31,12 @@ YtPlayer.prototype = {
 // this method sends request to the get route, ytplayer.rb and returns array of videoIds
   sendRequest: function(knobValue){
     var player = this;
+    var value = knobValue.split(' ').join('_');
     $.ajax({
       url: "/song_maker/" + knobValue.split(' ').join('_'),
       type: "GET",
       dataType: "json",
+      data:{knobValue:value},
       success: function(data){
         console.log("rails end point hit from js for level one songs succesful!");
         var videoIdsWithNum = data;
