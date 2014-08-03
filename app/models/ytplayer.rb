@@ -17,14 +17,14 @@ class Ytplayer < ActiveRecord::Base
   def get_level_two
     key = @options[:query][:api_key]
     results = 49
-    search_term = ["jazz","hip","hop","instrumental","study"].join("%20")
+    search_term = ["jazz","study"].join("%20")
     self.class.get("http://gdata.youtube.com/feeds/api/videos?alt=json&max-results=#{results}&v=2&key=#{key}&q=#{search_term}&safeSearch=none&time=all_time&uploader=partner")
   end
 
   def get_level_three
     key = @options[:query][:api_key]
     results = 49
-    search_term = ["korean", "kpop", "instrumental",  "japanese"].join("%20")
+    search_term = ["asian", "kpop", "instrumental"].join("%20")
     self.class.get("http://gdata.youtube.com/feeds/api/videos?alt=json&max-results=#{results}&v=2&key=#{key}&q=#{search_term}&safeSearch=none&time=all_time&uploader=partner")
   end
 
@@ -32,7 +32,7 @@ class Ytplayer < ActiveRecord::Base
   def get_level_four
     key = @options[:query][:api_key]
     results = 49
-    search_term = ["EDM","mix"].join("%20")
+    search_term = ["EDM"].join("%20")
     self.class.get("http://gdata.youtube.com/feeds/api/videos?alt=json&max-results=#{results}&v=2&key=#{key}&q=#{search_term}&safeSearch=none&time=all_time&uploader=partner")
   end
 end
