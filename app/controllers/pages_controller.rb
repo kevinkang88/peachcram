@@ -3,6 +3,6 @@ class PagesController < ApplicationController
   end
 
   def guide
-
+    @guide_page = true
   end
 end

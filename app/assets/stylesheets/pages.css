@@ -5,7 +5,17 @@
 }
 
 
-#guide-heading{
-  color:black;
-  font-size: 22px;
+#guide-page-box > * {
+  color:white;
+  font-weight: lighter;
+  font-family: 'Lato', sans-serif;
 }
+
+#guide-page-box h1{
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+  font-weight:bolder;
+  font-style: italic;
+;}
+
+
