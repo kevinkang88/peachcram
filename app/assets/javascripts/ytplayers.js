@@ -55,11 +55,11 @@ YtPlayer.prototype = {
 // #################################################################
 // This is Youtube's functions
 function initialize(videoID){
+  $("#playBtn").css('display','none');
   var params = { allowScriptAccess: "always" };
   var atts = { id: "myytplayer" };
   swfobject.embedSWF("http://www.youtube.com/v/" + videoID + "?enablejsapi=1&playerapiid=ytplayer&version=3&autoplay=1",
                    "ytapiplayer", "0", "0", "8", null, null, params, atts);
-  hideButton();
 }
 // this function hides the "play" button
 function hideButton(){

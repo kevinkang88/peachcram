@@ -23145,3 +23145,4 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/radio.jpg" for 127.0.0.1 at 2014-08-02 23:21:08 -0700
 Served asset /radio.jpg - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
